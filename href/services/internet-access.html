@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internet Access</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/remotecontrol.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/services.js"></script>
+
+  <link rel="stylesheet" href="/libs-third-party/uikit/uikit-3.7.2/css/uikit.min.css" />
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit.min.js"></script>
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit-icons.min.js"></script>
+
+  <script src="/libs-third-party/jquery/jquery-3.6.0.min.js"></script>
+  <script>
+    (function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        RemoteControl.init();
+      });
+    }());
+    window.onload = function () {
+      hotel_info_init();
+    };
+  </script>
+</head>
+
+<body id="">
+  <div id="home_page" class="home_page">
+    <div id="hotel_logo" class="logo"></div>
+    <div class="uk-flex uk-position-center uk-width-1-2">
+      <div class="uk-card uk-card-default uk-card-body uk-margin-xlarge-right uk-margin-xlarge-left">
+        <h2 class= "uk-text-center uk-text-bold uk-text-uppercase">Internet Access</h2>
+        <p class="uk-text-justify uk-text-large">To connect a device with WiFi. Please do the following steps:</p>
+        <ul>
+          <li>Connect to the "My Resort" network</li>
+          <li>Enter password "InternetService"</li>
+          <li>You should now be connected, enjoy the complimentary internet service.</li>
+        </ul>
+        <p class="uk-text-justify uk-text-large">Printing facility is available at Reception.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

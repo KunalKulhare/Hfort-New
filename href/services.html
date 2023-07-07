@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch TV</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/remotecontrol.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/inner.js"></script>
+
+  <link rel="stylesheet" href="/libs-third-party/uikit/uikit-3.7.2/css/uikit.min.css" />
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit.min.js"></script>
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit-icons.min.js"></script>
+
+  <script src="/libs-third-party/jquery/jquery-3.6.0.min.js"></script>
+  <script>
+    (function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        RemoteControl.init();
+      });
+    }());
+    window.onload = function () {
+      hotel_info_init();
+      inner_menu_init();
+    };
+  </script>
+</head>
+
+<body id="webOS_Body">
+  <div id="home_page" class="home_page">
+    <div id="hotel_logo" class="logo"></div>
+    <div id="inner_menu" class="menu_bottom uk-child-width-expand"></div>
+  </div>
+</body>
+
+</html>

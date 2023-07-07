@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/remotecontrol.js"></script>
+  <script src="/js/home.js"></script>
+
+  <link rel="stylesheet" href="/libs-third-party/uikit/uikit-3.7.2/css/uikit.min.css" />
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit.min.js"></script>
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit-icons.min.js"></script>
+
+  <script src="/libs-third-party/jquery/jquery-3.6.0.min.js"></script>
+  <script>
+    (function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        RemoteControl.init();
+      });
+    }());
+    window.onload = function () {
+      home_menu_init();
+      hotel_info_init();
+    };
+  </script>
+</head>
+
+<body id="webOS_Body">
+  <div id="home_page" class="home_page">
+    <div id="hotel_logo" class="logo"></div>
+    <div class="uk-text-left@xl uk-card-body">
+      <span class="df-text-color-white uk-heading-small">
+        Enjoy your<br>
+        <span class="df-text-color-white uk-heading-medium uk-text-bold">BEST DAY</span>
+        with us
+      </span>
+    </div>
+    <div id="home_menu" class="menu_bottom uk-child-width-expand" uk-grid></div>
+  </div>
+
+</body>
+
+</html>

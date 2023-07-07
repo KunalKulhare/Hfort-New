@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/remotecontrol.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/services.js"></script>
+
+  <link rel="stylesheet" href="/libs-third-party/uikit/uikit-3.7.2/css/uikit.min.css" />
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit.min.js"></script>
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit-icons.min.js"></script>
+
+  <script src="/libs-third-party/jquery/jquery-3.6.0.min.js"></script>
+  <script>
+    (function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        RemoteControl.init();
+      });
+    }());
+    window.onload = function () {
+      hotel_info_init();
+    };
+  </script>
+</head>
+
+<body id="">
+  <div id="home_page" class="home_page">
+    <div id="hotel_logo" class="logo"></div>
+    <div class="uk-flex uk-position-center uk-width-1-2">
+      <div class="uk-card uk-card-default uk-card-body uk-margin-xlarge-right uk-margin-xlarge-left">
+        <h2 class= "uk-text-center uk-text-bold">Best weather to visit</h2>
+        <p class="uk-text-justify uk-text-large">We recommend best time to visit is in November and between February to May, when temperatures is between 20°C to 33°C. This avoids the monsoon and the peak tourist season of December-January, so beaches are not overcrowded and good deals can be found for airfares and rooms.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

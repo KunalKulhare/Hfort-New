@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "title": "Your Room at a Marine",
+            "subtitle": "View your room facilities",
+            "logo": "/image/resort-services-button/your-room_icon.png",
+            "id" :"marine"
+        },
+        {
+            "title": "Room Temperature",
+            "subtitle": "Control your room temperature",
+            "logo": "/image/resort-services-button/room-temperature_icon.png",
+            "id" :"temperature"
+        },
+        {
+            "title": "Internet-Access",
+            "subtitle": "Access our Resort Internet",
+            "logo": "/image/resort-services-button/internet-access_icon.png",
+            "id" :"internet"
+        },
+        {
+            "title": "World-clock",
+            "subtitle": "Check world time",
+            "logo": "/image/resort-services-button/world-clock_icon.png",
+            "id" :"clock"
+        },
+        {
+            "title": "Weather",
+            "subtitle": "The Weather in The City",
+            "logo": "/image/resort-services-button/weather_icon.png",
+            "id" :"weather"
+        }
+    ]
+}

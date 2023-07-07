@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breakfast</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/remotecontrol.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/services.js"></script>
+
+  <link rel="stylesheet" href="/libs-third-party/uikit/uikit-3.7.2/css/uikit.min.css" />
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit.min.js"></script>
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit-icons.min.js"></script>
+
+  <script src="/libs-third-party/jquery/jquery-3.6.0.min.js"></script>
+  <script>
+    (function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        RemoteControl.init();
+      });
+    }());
+    window.onload = function () {
+      hotel_info_init();
+    };
+  </script>
+</head>
+
+<body id="">
+  <div id="home_page" class="home_page">
+    <div id="hotel_logo" class="logo"></div>
+    <div class="uk-flex uk-position-center uk-width-1-2">
+      <div class="uk-card uk-card-default uk-card-body uk-margin-xlarge-right uk-margin-xlarge-left">
+        <h2 class="uk-text-center uk-text-bold">BREAKFAST PLATTERS</h2>
+        <p class="uk-text-center uk-text-large"><br>
+          <strong>Masala Omelette</strong> <br>
+          Spiced double-egg omelette packed with onion, tomato, green chilli and coriander. Served with two slices of multigrain garlic bread. <br> – power up with our protein bestseller!
+          <br><br><strong>Cheese Omelette</strong> <br>
+          Omelettes have hidden many a stuffing in their gentle folds, but nothing beats cheese. Served with two slices of fresh-from-the-oven multi-grain garlic bread, our cheese omelette is what good memories are made of. You would agree… try it!
+          <br><br><strong>High Protein English Breakfast</strong> <br>
+          Scrambled eggs, sausages tossed in a special seasoning are served alongside a mixed veg cutlet. This blend isn't just perfect for starting your day, but also great to get you through your busy schedule. Order now.
+          <br><br><strong>Smoked Sausages with Hashbrown</strong> <br>
+          Here we bring to you, sliced sausages, sautéed with onions, tri bell peppers, with a dash of black pepper and serve them hot with crispy, golden-fried hash browns.
+          <br><br><strong>Ultimate Burrito Bowl</strong> <br>
+          This bowl contains mexican tomato rice loaded with toppings to give you a full-satisfying meal. Fresh paneer cubes, corn-bean,tangy tomato pineapple salsa and sour cream garnished with jalapeno and cheese. Packed with a burst of flavours. All our meals are prepared fresh on order.
+          <br><br><strong>Fresh-Fruit Bowl</strong> <br>
+          A mix of bite sized pineapple, watermelon, muskmelon, papaya, apple, pomegranate; perfect to brighten up your day in the morning and fuel you up for the rest of the day.
+        </p>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

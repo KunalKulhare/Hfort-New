@@ -1,0 +1,78 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.home_page {
+    background-color: #000;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#hotel_logo {
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}
+
+#home_menu {
+    position: absolute;
+    top: 70%;
+    width: 95%;
+    left: 45px;
+    color: white;
+    text-align: center;
+}
+
+.rcbutton_active {
+    transform: scale(1.2);
+}
+
+.fullimage{
+    font-size: 100px;
+    text-align: center;
+    margin: 250px 50px 75px 100px;
+    background-color: rgb(230, 230, 230);
+}
+
+.head {
+    color: rgb(253, 244, 244);
+    font-size: 30px;
+}
+
+.df-text-color-white {
+    color: white !important;
+}
+
+#inner_menu{
+    position: absolute;
+    top: 10%;
+    width: 25%;
+    left: 30px;
+
+}
+
+.text {
+    background-color: rgb(230, 230, 230);   
+}
+
+.icon{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.list{
+    margin-left: 6px;
+    position: absolute;
+    margin-top: 16px; 
+}
+
+.sub-list{
+    margin-left: 70px;
+    margin-top: -15px;
+}

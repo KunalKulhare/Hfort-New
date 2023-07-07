@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spa</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/remotecontrol.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/services.js"></script>
+
+  <link rel="stylesheet" href="/libs-third-party/uikit/uikit-3.7.2/css/uikit.min.css" />
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit.min.js"></script>
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit-icons.min.js"></script>
+
+  <script src="/libs-third-party/jquery/jquery-3.6.0.min.js"></script>
+  <script>
+    (function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        RemoteControl.init();
+      });
+    }());
+    window.onload = function () {
+      hotel_info_init();
+    };
+  </script>
+</head>
+
+<body id="">
+  <div id="home_page" class="home_page">
+    <div id="hotel_logo" class="logo"></div>
+    <div class="uk-flex uk-position-center uk-width-1-2">
+      <div class="uk-card uk-card-default uk-card-body uk-margin-xlarge-right uk-margin-xlarge-left">
+        <h2 class="uk-text-center uk-text-bold">Spa Therapy</h2>
+        <p class="uk-text-justify uk-text-large">
+          Our Exclusive Specially Selected Spa Therapy to experience during your stay are:
+          <br><br>
+          <strong>Diamond Life Infusion Ritual</strong> <br>
+          An amazing "youth elixir" that unviels renwed skin that is soft, smooth and wonerfully rejuvenated. Recommended for lines, wrinkles & skin rejuventation. This intensive treatment results in firmer, more luminous and visbly younger looking skin. It redefines your facial contour, improves skin texture and fads expression lines just one session.
+          <br><br>
+          <strong>Burmese Massage</strong> <br>
+          Traditional Burmese Foot Massage, Burmese massage has its ancient origins from Thai, Chinese and Indian medicine. Currently, Burmese massage also includes the use local natural ingredients such as Thanaka, which helps to promote smooth skin and prevents sunburn.
+          <br><br>
+          <strong>Herbal Body Wrap</strong> <br>
+          Linen or muslin sheets are heated and soaked in a machine in which herbal pouches or oils have been placed. The body is then covered with towels or rubber sheets, followed by the linen or muslin sheet. Additional sheets and blankets are laid over and the body allowed to rest for 20 minutes. Wet cloths need to be constantly placed on the guests’ forehead. Due to the weight of the sheets, technicians can do no more than four to six wraps a day.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "title": "Watch TV",
+            "logo": "/image/icon-home/watch-tv.png",
+            "page": "/href/watch-tv.html",
+            "id": "watch"
+        },
+        {
+            "title": "Services",
+            "logo": "/image/icon-home/services.png",
+            "page": "/href/services.html",
+            "id": "services"
+        },
+        {
+            "title": "Meeting",
+            "logo": "/image/icon-home/meeting-events.png",
+            "page": "/href/meeting.html",
+            "id": "meeting"
+        },
+        {
+            "title": "Transport",
+            "logo": "/image/icon-home/transport-service.png",
+            "page": "/href/transport-service.html",
+            "id": "transport"
+        },
+        {
+            "title": "Spa",
+            "logo": "/image/icon-home/spa.png",
+            "page": "/href/spa.html",
+            "id": "spa"
+        },
+        {
+            "title": "Dine Wine",
+            "logo": "/image/icon-home/dine-wine.png",
+            "page": "/href/dine-wine.html",
+            "id": "dine"
+        }
+    ]
+}

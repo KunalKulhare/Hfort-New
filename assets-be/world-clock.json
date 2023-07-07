@@ -1,0 +1,65 @@
+{
+    "data": [
+        {
+            "name": "London",
+            "logo": "/image/city/london.png",
+            "timezone": "Europe/London",
+            "id": "london"
+        },
+        {
+            "name": "Dublin",
+            "logo": "/image/city/dublin.png",
+            "timezone": "Europe/Dublin",
+            "id": "dublin"
+        },
+        {
+            "name": "Paris",
+            "logo": "/image/city/paris.png",
+            "timezone": "Europe/Paris",
+            "id": "paris"
+        },
+        {
+            "name": "Dubai",
+            "logo": "/image/city/dubai.png",
+            "timezone": "Asia/Dubai",
+            "id": "dubai"
+        },
+        {
+            "name": "Bangkok",
+            "logo": "/image/city/bangkok.png",
+            "timezone": "Asia/Bangkok",
+            "id": "bangkok"
+        },
+        {
+            "name": "Hong-Kong",
+            "logo": "/image/city/hong-kong.png",
+            "timezone": "Asia/Hong_Kong",
+            "id": "hong-kong"
+        },
+        {
+            "name": "Sydney",
+            "logo": "/image/city/sydney.png",
+            "timezone": "Australia/Sydney",
+            "id": "sydney"
+        },
+        {
+            "name": "New York",
+            "logo": "/image/city/new-york.png",
+            "timezone": "America/New_York",
+            "id": "new-york"
+        },
+        {
+            "name": "Chicago",
+            "logo": "/image/city/chicago.png",
+            "timezone": "America/Chicago",
+            "id": "chicago"
+        },
+        {
+            "name": "Los-Angeles",
+            "logo": "/image/city/los-angeles.png",
+            "timezone": "America/Los_Angeles",
+            "id": "los-angles"
+        }
+
+    ]
+}

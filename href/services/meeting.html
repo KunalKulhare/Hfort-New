@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting & Events</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/remotecontrol.js"></script>
+  <script src="/js/home.js"></script>
+  <script src="/js/services.js"></script>
+
+  <link rel="stylesheet" href="/libs-third-party/uikit/uikit-3.7.2/css/uikit.min.css" />
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit.min.js"></script>
+  <script src="/libs-third-party/uikit/uikit-3.7.2/js/uikit-icons.min.js"></script>
+
+  <script src="/libs-third-party/jquery/jquery-3.6.0.min.js"></script>
+  <script>
+    (function () {
+      document.addEventListener("DOMContentLoaded", function () {
+        RemoteControl.init();
+      });
+    }());
+    window.onload = function () {
+      hotel_info_init();
+    };
+  </script>
+</head>
+
+<body id="">
+  <div id="home_page" class="home_page">
+    <div id="hotel_logo" class="logo"></div>
+    <div class="uk-flex uk-position-center uk-width-1-2">
+      <div class="uk-card uk-card-default uk-card-body uk-margin-xlarge-right uk-margin-xlarge-left">
+        <h2 class="uk-text-center uk-text-bold uk-text-uppercase">Meeting & Events</h2>
+        <p class="uk-text-justify uk-text-large">
+          The Executive Boardroom provides an immpressive and comfortable seating for meettings.
+          <br><br>
+          Whatever you're planning, our professional and deatil-oriented team are on your hand to ensure a flawless exeperience for every guest and host.
+          Our team is by your side to ensure that the events runs smoothly and enjoyable for all guests, leaving you free from managing the events/tasks.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
